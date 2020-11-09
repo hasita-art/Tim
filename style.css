@@ -1,0 +1,15 @@
+.line{
+    width: 50%;
+    height:6px;
+    background: black;
+    margin:auto;
+}
+body{
+    text-align: center;
+}
+img{
+    width: 35%;
+}
+#intro{
+    background: linear-gradient(gray, cyan, pink);
+}
