@@ -9,7 +9,10 @@ body{
     margin:0px;
 }
 img{
-    width: 35%;
+    width: 150px;
+    height:300px;
+    border:2px solid black;
+    border-radius:10px;
 }
 #intro{
     background: linear-gradient(black, grey, white);
