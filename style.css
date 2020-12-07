@@ -6,10 +6,82 @@
 }
 body{
     text-align: center;
+    margin:0px;
 }
 img{
     width: 35%;
 }
 #intro{
-    background: linear-gradient(gray, cyan, pink);
+    background: linear-gradient(black, grey, white);
+    height: 720px;
+    display: table;
+    width: 100%;
+}
+#intro_inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+#menu{
+    list-style: none;
+    background: rgba(63, 120, 158,0.5);
+    padding: 10px;
+    margin:0px;
+    position: fixed;
+    width: 100%;
+}
+.item{
+    display: inline-block;
+}
+.item>a{
+    font-size: 20px;
+    margin-right: 10px;
+    color:aliceblue;
+    text-decoration: none;
+}
+.item>a:hover{
+    color: aquamarine;
+    cursor: pointer;
+}
+#name{
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 20px;
+    color:navy
+}
+h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+h2{
+    font-weight: 100;
+}
+html{
+    scroll-behavior: smooth;
+}
+#contact{
+    background-color:darkslategrey;
+    padding:5px;
+}
+#social_media{
+    padding: 50px 0px;
+}
+#social_media a{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    width: 20px;
+    display: inline-block;
+    transition: transform 0.4s;
+}
+#social_media a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    transform: scale(1.2);
 }
